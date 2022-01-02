@@ -9,6 +9,9 @@ body{
     background-color: #222629;
     padding: 50px;
 }
+.navmenu{
+    display: none;
+}
 .container{
     background-color: #4a535a;
     border-radius: 40px !important;
@@ -170,14 +173,13 @@ header ul li a:hover{
     }
 }
 .footer{
-    padding: 30px;
     text-align: center;
-    border-top: 2px solid #141618;
     background: #222629;
+    height: 10px;
 }
 .footer h2{
     font-size: 1.3em;
-    color: var #bdc6d1;
+    color: #bdc6d1;
 }
 .footer a{
     text-decoration: none;
@@ -187,8 +189,5 @@ header ul li a:hover{
 .footer a:hover{
     letter-spacing: 2px;
     font-weight: 600;
-    color: #bdc6d1;
-}
-.footer p{
     color: #bdc6d1;
 }
